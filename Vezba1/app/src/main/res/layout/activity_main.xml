@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Twitter search query here"
+        android:inputType="text"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:hint="Tag your query"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Save">
+        </Button>
+    </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/orange">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tagged Searches"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="6dp">
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:layout_weight="2"
+                            android:layout_margin="2dp"
+                            android:text="AndroidFP">
+
+                        </Button>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="60dp"
+                            android:layout_margin="2dp"
+                            android:text="Edit">
+
+                        </Button>
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="Deitel">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="Google">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="IphnoeFP">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="JavaFP">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="JavaHTP">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="Cotlin">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="Java">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="Sql">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="Google">
+
+                    </Button>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="6dp">
+                    <Button
+                        android:id="@+id/btn10.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:layout_margin="2dp"
+                        android:text="AndroidFP">
+
+                    </Button>
+                    <Button
+                        android:id="@+id/btn10.2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_margin="2dp"
+                        android:text="Edit">
+
+                    </Button>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="Clear Tags"
+    android:layout_margin="10dp"/>
+
+</LinearLayout>
